@@ -1,5 +1,6 @@
 package de.tudresden.containmentsimulation.agents;
 
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 import jade.core.Agent;
@@ -24,7 +25,7 @@ public class MobileAgent extends Agent{
 	@Override
 	protected void setup() {
 		logger.info("this is the installation of the agent" + this.getAID().getName());
-		final Agent aux = this; 
+		final Agent auxAgent = this; 
 		
 		//add a behavior
 		addBehaviour(new OneShotBehaviour() {
@@ -34,6 +35,8 @@ public class MobileAgent extends Agent{
 				// TODO Auto-generated method stub
 				try {
 					logger.info("we are waiting at this point");
+					TimeUnit.SECONDS.sleep(50);
+					PathRouter.moveAgent(auxAgent);
 				} catch(Exception ex)
 				{
 					ex.printStackTrace();
