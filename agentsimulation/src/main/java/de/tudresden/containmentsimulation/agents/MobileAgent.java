@@ -3,6 +3,7 @@ package de.tudresden.containmentsimulation.agents;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
+import de.tudresden.containmentsimulation.misc.PathRouter;
 import jade.core.Agent;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.wrapper.AgentController;
@@ -36,7 +37,7 @@ public class MobileAgent extends Agent{
 				try {
 					logger.info("we are waiting at this point");
 					TimeUnit.SECONDS.sleep(50);
-					PathRouter.moveAgent(auxAgent);
+					PathRouter.sampleMovementAgent(auxAgent);
 				} catch(Exception ex)
 				{
 					ex.printStackTrace();
