@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>jadex_example</groupId>
+  <artifactId>modeldrivenjade</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>modeldrivenjade</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jadexversion>4.0.171</jadexversion>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+<repositories>
+    <repository>
+      <id>jcenter</id>
+      <url>https://jcenter.bintray.com/</url>
+    </repository>
+    <repository>
+        <id>jadex-oss-nightlies</id>
+        <url>https://nexus.actoron.com/content/repositories/oss-nightlies</url>
+    </repository>
+    
+</repositories>
+
+  
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+      <dependency>
+	    <groupId>org.activecomponents.jadex</groupId>
+	    <artifactId>jadex-distribution-minimal</artifactId>
+	    <version>${jadexversion}</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/net.sf.jason/jason -->
+	<!-- https://mvnrepository.com/artifact/net.sf.jason/jason -->
+	<dependency>
+	    <groupId>net.sf.jason</groupId>
+	    <artifactId>jason</artifactId>
+	    <version>2.3</version>
+	</dependency>
+  </dependencies>
+
+  <build> 
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <mainClass> multiagent.App </mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

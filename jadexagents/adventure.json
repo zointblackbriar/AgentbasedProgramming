@@ -1,0 +1,92 @@
+{
+	"items" : [
+		{
+			"name" : "key",
+			"description" : "It is a shiny brass key",
+			"carryable" : true
+		},
+		{
+			"name" : "letter",
+			"description" : "It reads You win!",
+			"carryable" : true
+		},
+		{
+			"name" : "safe",
+			"description" : "It is a very heavy locked box. There is a keyhole on it",
+			"carryable" : false,
+			"key" : "key",
+			"container" : true,
+			"locked" : true,
+			"open" : false,
+			"contents" : ["letter"]
+		}
+	],
+
+	"rooms" : [
+		{
+			"name" : "porch",
+			"description" : "This is the front porch of your house",
+			"exits" : [
+				{
+					"direction" : "north",
+					"to" : "hall"
+				}
+			]
+		},
+		{
+			"name" : "hall",
+			"description" : "This is the main hall of your house",
+			"exits" : [
+				{
+					"direction" : "north",
+					"to" : "study"
+				},
+				{
+					"direction" : "south",
+					"to" : "porch"
+				},
+				{
+					"direction" : "east",
+					"to" : "bedroom"
+				},
+				{
+					"direction" : "west",
+					"to" : "kitchen"
+				}
+			]
+		},
+		{
+			"name" : "bedroom",
+			"description" : "This is where you sleep",
+			"contents" : ["key"],
+			"exits" : [
+				{
+					"direction" : "west",
+					"to" : "hall"
+				}
+			]
+		},
+		{
+			"name" : "study",
+			"description" : "This is where you pretend to work",
+			"contents" : ["safe"],
+			"exits" : [
+				{
+					"direction" : "south",
+					"to" : "hall"
+				}
+			]
+		},
+		{
+			"name" : "kitchen",
+			"description" : "This is a room you never use and aren't really certain why you even have it.",
+			"exits" : [
+				{
+					"direction" : "east",
+					"to" : "hall"
+				}
+			]
+		}
+	],
+	"startRoom" : "porch"
+}
