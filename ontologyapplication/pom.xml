@@ -80,6 +80,13 @@
 			<artifactId>bcpkix-jdk15on</artifactId>
 			<version>1.68</version>
 		</dependency>
+		<!-- Maven exec plugin-->
+		<dependency>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>exec-maven-plugin</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
 	</dependencies>
 
 
@@ -91,9 +98,9 @@
 				<version>3.0.0-M5</version>
 			</plugin>
 			<plugin>
-				<groupId>org.web3j</groupId>
+				<groupId>com.github.longdt</groupId>
 				<artifactId>web3j-maven-plugin</artifactId>
-				<version>4.8.7</version>
+				<version>4.8.10</version>
 				<configuration>
 					<soliditySourceFiles>
 						<directory>smartcontracts/solc-contracts</directory>
@@ -133,11 +140,12 @@
 					</execution>
 				</executions>
 			</plugin>
+
 			<!-- checkstyle is performed during the compile phase -->
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.17</version>
+				<version>3.1.2</version>
 				<dependencies>
 					<dependency>
 						<groupId>com.puppycrawl.tools</groupId>
@@ -161,7 +169,7 @@
 					<failsOnError>true</failsOnError>
 					<includeTestSourceDirectory>true</includeTestSourceDirectory>
 				</configuration>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 </project>

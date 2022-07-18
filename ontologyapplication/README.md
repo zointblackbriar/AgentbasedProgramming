@@ -5,6 +5,21 @@ Event if the multi-agent system has been constructed on theory base, we are goin
 that will register the track of multi-agent application into the blockchain network.
 
 
+### Maven-specific Information 
+
+In order to compile the codebase: 
+
+```bash 
+mvn clean compile
+```
+
+In order to install libraries into the local repository. (Without testing) 
+
+```bash
+mvn clean install -DskipTests=true
+```
+
+
 ### Bank Ontology Application
 
 License belongs to Montreal University
@@ -76,4 +91,23 @@ and Ganache-Cli or GUI changes private key at each opening from scratch. Use the
 
 ```bash
 ganache-cli -l 9000000 -m "world reopen cute forward vintage okay drink margin piano buffalo autumn awful"
+```
+
+### LightJason Applications
+
+Run the agent application (Correct way) 
+
+```bash 
+mvn package -DskipTests=true
+```
+
+And then
+
+```bash 
+java -jar target/myagentapp-1.0-SNAPSHOT.jar agent_trigger.asl 500 1000
+```
+Run with Maven command
+
+```bash 
+mvn clean compile exec:java -Dexec.mainClass="de.tudresden.agentontology.lightjasonintegration.AgentApp" -Dexec.args="agentasl/agent_trigger.asl 500 1000"
 ```
