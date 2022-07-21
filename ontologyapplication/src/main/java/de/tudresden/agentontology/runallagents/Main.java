@@ -1,4 +1,4 @@
-package de.tudresden.agentontology.simpleagent;
+package de.tudresden.agentontology.runallagents;
 
 import java.awt.EventQueue;
 

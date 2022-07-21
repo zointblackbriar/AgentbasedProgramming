@@ -1,3 +1,4 @@
+package de.tudresden.agentontology.runallagents;
 //package de.tudresden.agentontology.simpleagent;
 //
 //import jade.wrapper.AgentController;

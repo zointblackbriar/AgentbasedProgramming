@@ -18,7 +18,6 @@ de/tudresden/agentontology/classcontract/ClassContract$5.class
 de/tudresden/agentontology/ontologyapplication/BankClient.class
 de/tudresden/agentontology/jadexintegration/JokeAgent$MoodGui$1$1.class
 de/tudresden/agentontology/supplychainsimulation/SaleGUI.class
-de/tudresden/agentontology/simpleagent/SimpleAgent.class
 de/tudresden/agentontology/ontologyapplication/CreateAccount.class
 de/tudresden/agentontology/supplychainsimulation/BuyerAgent.class
 de/tudresden/agentontology/lightjasonintegration/AgentApp.class
@@ -37,7 +36,6 @@ de/tudresden/agentontology/classcontract/ClassContract.class
 de/tudresden/agentontology/ontologyapplication/BankServer$HandleCreateAccount.class
 de/tudresden/agentontology/blockchainconnect/BlockchainConnection.class
 de/tudresden/agentontology/greeterapp/Greeter.class
-de/tudresden/agentontology/simpleagent/SimpleAgent$1.class
 de/tudresden/agent/annotations/RuntimeSampleAnn.class
 de/tudresden/agentontology/containertest/AgentReceiver.class
 de/tudresden/agentontology/ontologyapplication/Information.class
@@ -46,11 +44,13 @@ de/tudresden/agentontology/ontologyapplication/Operation.class
 de/tudresden/agentontology/greeterapp/Greeter$5.class
 de/tudresden/agentontology/classcontract/ClassContract$6.class
 de/tudresden/agentontology/ontologyapplication/Account.class
+de/tudresden/agentontology/runallagents/SimpleAgent$1.class
 de/tudresden/agentontology/jadexintegration/JokeAgent$AntiAngryPlan.class
 de/tudresden/agentontology/jadexintegration/JokeAgent$OnlineSelectPlan.class
 de/tudresden/agentontology/greeterapp/Callee$3.class
+de/tudresden/agentontology/runallagents/Main.class
 de/tudresden/agentontology/jadexintegration/IPaintMoneyService.class
-de/tudresden/agentontology/simpleagent/Main.class
+de/tudresden/agentontology/runallagents/SimpleAgent.class
 de/tudresden/agentontology/util/PropertyUtil.class
 de/tudresden/agentontology/jadexintegration/JokeAgent$MoodGui$1.class
 de/tudresden/agentontology/jadexintegration/Main.class
@@ -73,8 +73,8 @@ de/tudresden/agentontology/ontologyapplication/BankServer$HandleOperation.class
 de/tudresden/agentontology/greeterapp/Greeter$3.class
 de/tudresden/agentontology/classcontract/ClassContract$4.class
 de/tudresden/agentontology/ontologyapplication/MakeOperation.class
+de/tudresden/agentontology/lightjasonintegration/TriggerAgentApp.class
 de/tudresden/agentontology/ontologyapplication/BankVocabulary.class
-de/tudresden/agentontology/simpleagent/Main$1.class
 de/tudresden/agentontology/jadexintegration/PaymentAgent.class
 de/tudresden/agentontology/jadexintegration/QuickstartBDI$InUpperLeftCorner.class
 de/tudresden/agentontology/jadexintegration/HelloPureGoalAgent$HelloGoal.class
@@ -83,6 +83,7 @@ de/tudresden/agentontology/greeterapp/Player.class
 de/tudresden/agentontology/lightjasonintegration/CVariableBuilder.class
 de/tudresden/agentontology/lightjasonintegration/MyAgentGenerator.class
 de/tudresden/agentontology/jadexintegration/AgentCommonActivity.class
+de/tudresden/agentontology/runallagents/Main$1.class
 de/tudresden/agentontology/greeterapp/Greeter$2.class
 de/tudresden/agentontology/classcontract/ClassContract$3.class
 de/tudresden/agentontology/jadexintegration/JokeAgent$MoodGui$3.class

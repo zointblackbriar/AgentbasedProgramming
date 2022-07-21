@@ -111,3 +111,7 @@ Run with Maven command
 ```bash 
 mvn clean compile exec:java -Dexec.mainClass="de.tudresden.agentontology.lightjasonintegration.AgentApp" -Dexec.args="agentasl/agent_trigger.asl 500 1000"
 ```
+
+```bash
+mvn clean compile exec:java -Dexec.mainClass="de.tudresden.agentontology.lightjasonintegration.TriggerAgentApp" -Dexec.args="agentasl/agent_trigger.asl 10 10"
+```

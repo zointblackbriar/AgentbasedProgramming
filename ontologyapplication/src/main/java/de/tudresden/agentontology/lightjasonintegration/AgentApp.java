@@ -62,7 +62,7 @@ public class AgentApp
      *
      * @param args command-line arguments
      */
-    public static void main(String[] args )
+    public static int main(String[] args )
     {
         if ( args.length < 2 )
             throw new RuntimeException( "arguments are not set: ASL script, number of agents" );
@@ -87,7 +87,7 @@ public class AgentApp
         catch ( final Exception l_exception )
         {
             l_exception.printStackTrace();
-            return;
+            return -1;
         }
 
         // runtime call (with parallel execution)
@@ -127,5 +127,6 @@ public class AgentApp
                                            l_exception.printStackTrace();
                                        }
                                    } ) );
+        return 1;
     }
 }

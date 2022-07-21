@@ -2,12 +2,14 @@
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/greeterapp/Mortal.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/blockchainconnect/BlockchainConnection.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/JokeAgent.java
+/media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/runallagents/PlatformManager.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/IPaintMoneyService.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/ontologyapplication/BankOntology.java
-/media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/simpleagent/PlatformManager.java
+/media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/runallagents/SimpleAgent.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/util/PropertyUtil.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/ontologyapplication/BankClient.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/lightjasonintegration/MyAgentGenerator.java
+/media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/lightjasonintegration/TriggerAgentApp.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/ontologyapplication/CreateAccount.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/ontologyapplication/MakeOperation.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/greeterapp/Player.java
@@ -15,6 +17,7 @@
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/supplychainsimulation/BuyerAgent.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/HelloAgent.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/containertest/WorkerMain.java
+/media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/runallagents/Main.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/QuickstartBDI.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/ontologyapplication/Information.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agent/annotations/RuntimeSampleAnn.java
@@ -25,12 +28,10 @@
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/greeterapp/Greeter.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/containertest/AgentReceiver.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/HelloWorld.java
-/media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/simpleagent/Main.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/ontologyapplication/Problem.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/AgentCommonActivity.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/Main.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/lightjasonintegration/CVariableBuilder.java
-/media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/simpleagent/SimpleAgent.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/lightjasonintegration/MyAgent.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/ontologyapplicationde/utility/UtilitySample.java
 /media/zoint/D0F4-36FA/AllFiles/Projeler/zointblackbriar/AgentbasedProgramming/ontologyapplication/src/main/java/de/tudresden/agentontology/jadexintegration/PaymentAgent.java
